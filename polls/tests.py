@@ -91,6 +91,9 @@ class QuestionDetailViewTest(TestCase):
 		response = self.client.get(url)
 		self.assertContains(response,past_question.question_text)
 
+def test_git_features():
+	pass
+
 
 
 
